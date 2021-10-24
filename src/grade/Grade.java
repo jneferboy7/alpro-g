@@ -17,7 +17,9 @@ public class Grade {
             System.out.println("Nilai C");
         } else if (nilai >= 70) {
             System.out.println("Nilai D");
-        } else {
+        } else if (nilai >= 60) {
+            System.out.println("Anda Tidak Lulus");
+        }else {
             System.out.println("Anda Tidak Lulus");
         }
     }
